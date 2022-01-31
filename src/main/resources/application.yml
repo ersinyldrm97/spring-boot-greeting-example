@@ -1,0 +1,18 @@
+server:
+  address: localhost
+  port: 4000
+
+spring:
+  jpa:
+    show-sql: true
+  datasource:
+    username: postgres
+    password: password
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/postgres
+  output:
+    ansi:
+      enabled: ALWAYS
+  main:
+    banner_mode: off
+    web-application-type: none
